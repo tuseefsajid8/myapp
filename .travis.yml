@@ -6,4 +6,4 @@ before_install:
   - docker build -t tuseefs8/myapp -f Dockerfile.dev .
 
 script:
- - docker run -e CI=true tuseef8s/myapp npm run test 
+ - docker run -e CI=true tuseefs8/myapp npm run test 
